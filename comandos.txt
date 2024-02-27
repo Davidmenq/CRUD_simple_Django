@@ -1,0 +1,11 @@
+python -m venv venv -> Crea el entorno virtual
+source NOMBRE_DEL_ENTORNO_VIRTUAL/Script/activate -> activar el entorno virtual
+pip install django djangorestframework -> instala las dependencias de django y djangorestframework necesarias para la API REST
+django-admin startproject NOMBRE_DE_CARPETA_DEL_PROYECTO . -> inicia la carpeta de proyecto con el nombre que se le da, el punto indica que se crear'a en la raiz
+python manage.py startapp NOMBRE_DE_LA_APLICACION -> añade una aplicaci'on
+python manage.py makemigrations -> crea una base de datos con la forma del modelo. En este caso de SQLite
+python manage.py migrate -> Ejecuta el archivo creado para la migraci'on por el comando makemigrate
+
+* crear un serializador
+
+python manage.py runserver -> ejecuta la aplicaci'on

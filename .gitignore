@@ -1,0 +1,4 @@
+/venv
+/taskapi/__pycache__
+/tasks/__pycache__
+/tasks/migrations
